@@ -3,6 +3,7 @@
   padding: 10px 0px;
   display: flex;
   justify-content: center;
+  font-family: "DM Mono" Arial, Helvetica, sans-serif;
 }
 
 .header__logo {

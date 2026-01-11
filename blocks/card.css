@@ -4,7 +4,7 @@
 
 .card__title {
   margin: 12px 0 0;
-  font-family: "Poppins-medium";
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 20px;
   font-style: medium;
@@ -12,7 +12,7 @@
   display: -webkit-box;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 3;
+  white-space: nowrap;
   -webkit-box-orient: vertical;
 }
 

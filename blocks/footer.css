@@ -5,9 +5,8 @@
 .footer__copyright {
   font-family: "Poppins";
   font-size: 16px;
-  font-style: medium;
+  font-weight: 500;
   margin: 0;
   color: rgba(33, 33, 33, 0.7);
   text-align: center;
-  padding-bottom: 60px;
 }

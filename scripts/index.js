@@ -17,8 +17,11 @@ const editProfileDescriptionInput = editProfileModal.querySelector(
   "#profile-description-input",
 );
 
+const NewPostImageInput = newPostModal.querySelector("#card-image-input");
+const NewPostCaptionInput = newPostModal.querySelector("#card-caption-input");
+
 // spot stage 5
-// select name and description from HTML
+// select name and description from HTML page
 const profileNameEl = document.querySelector(".profile__name");
 const profileDescriptionEl = document.querySelector(".profile__description");
 
@@ -64,9 +67,9 @@ function handleEditProfileSubmit(evt) {
 // step 3 New post form submission
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log(profileNameEl.value, profileDescriptionEl.value);
+  console.log(NewPostImageInput.value, NewPostCaptionInput.value);
 
-  editProfileModal.classList.remove("modal_is-opened");
+  newPostModal.classList.remove("modal_is-opened");
 }
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
